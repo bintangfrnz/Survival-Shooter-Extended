@@ -2,11 +2,10 @@
 *** Bintang Fajarianto
 *** 22 April 2022
 -->
-<!--
+
 <p align="center">
     <img align=center src="https://visitor-badge.laobi.icu/badge?page_id=bintangfrnz.Survival-Shooter-Extended" alt="Visitors">                     
 </p>
--->
 
 ## Survival-Shooter-Extended
 
