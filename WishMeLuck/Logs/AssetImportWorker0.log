@@ -1,0 +1,274 @@
+Unity Editor version:    2021.2.17f1 (efb8f635e7b1)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/bintangfajarianto/Documents/Semester-6/IF3210-PBD/Tubes-2/Survival-Shooter-Extended/WishMeLuck
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50073
+Successfully changed project path to: /Users/bintangfajarianto/Documents/Semester-6/IF3210-PBD/Tubes-2/Survival-Shooter-Extended/WishMeLuck
+/Users/bintangfajarianto/Documents/Semester-6/IF3210-PBD/Tubes-2/Survival-Shooter-Extended/WishMeLuck
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Platform WindowsStandaloneSupport does not support graphics device type 
+Refreshing native plugins compatible for Editor in 57.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.17f1 (efb8f635e7b1)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bintangfajarianto/Documents/Semester-6/IF3210-PBD/Tubes-2/Survival-Shooter-Extended/WishMeLuck/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56526
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002483 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 58.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (420ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (287ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (64ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003380 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bintangfajarianto/Documents/Semester-6/IF3210-PBD/Tubes-2/Survival-Shooter-Extended/WishMeLuck/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bintangfajarianto/Documents/Semester-6/IF3210-PBD/Tubes-2/Survival-Shooter-Extended/WishMeLuck/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.563 seconds
+Domain Reload Profiling:
+	ReloadAssembly (563ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Platform WindowsStandaloneSupport does not support graphics device type 
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3298 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.6 MB). Loaded Objects now: 3775.
+Memory consumption went from 241.8 MB to 241.2 MB.
+Total: 2.546709 ms (FindLiveObjects: 0.114917 ms CreateObjectMapping: 0.040667 ms MarkObjects: 2.201583 ms  DeleteObjects: 0.188459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12567.477946 seconds.
+  path: Assets/Prefabs/Enemies/ZomBunnyRage.prefab
+  artifactKey: Guid(41b8a18552c5dea4bb9137409fc967f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/ZomBunnyRage.prefab using Guid(41b8a18552c5dea4bb9137409fc967f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b34c2d1a97cbed820378bd8824b690') in 0.102711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 181.916111 seconds.
+  path: Assets/Prefabs/Enemies/SkeleBear.prefab
+  artifactKey: Guid(bc058012b4dd84b9488394ba8fbca7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/SkeleBear.prefab using Guid(bc058012b4dd84b9488394ba8fbca7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a47f1398a7cc0a8ccccd4ecf94c28d') in 0.020161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.878150 seconds.
+  path: Assets/Prefabs/Enemies/SkeleBunny.prefab
+  artifactKey: Guid(f8bcb890c140c46eeb0c722bd5f841c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/SkeleBunny.prefab using Guid(f8bcb890c140c46eeb0c722bd5f841c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5767cbf68631fe9da9564bdbbfe5fc7c') in 0.016350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.753211 seconds.
+  path: Assets/Prefabs/Enemies/BomBear.prefab
+  artifactKey: Guid(bce1612f0c53f475eb9c7c99403cc38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/BomBear.prefab using Guid(bce1612f0c53f475eb9c7c99403cc38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7a81239f3a5b6a718fcb6e8661dcd2') in 0.021754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.556385 seconds.
+  path: Assets/Prefabs/Enemies/BomBunny.prefab
+  artifactKey: Guid(5ea6ee9e7fbaf4551b0ab72f6b7e8bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/BomBunny.prefab using Guid(5ea6ee9e7fbaf4551b0ab72f6b7e8bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97c8b18196a31efae321224aff9f749') in 0.016347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.748091 seconds.
+  path: Assets/Prefabs/Enemies/SkeleBunny.prefab
+  artifactKey: Guid(f8bcb890c140c46eeb0c722bd5f841c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/SkeleBunny.prefab using Guid(f8bcb890c140c46eeb0c722bd5f841c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1edcb3d87d45be8cc17c5d667d1bd5') in 0.013208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.102132 seconds.
+  path: Assets/Prefabs/Enemies/SkeleBear.prefab
+  artifactKey: Guid(bc058012b4dd84b9488394ba8fbca7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/SkeleBear.prefab using Guid(bc058012b4dd84b9488394ba8fbca7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6699c90b110922d0330eb020e008ed5') in 0.011660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 425.027472 seconds.
+  path: Assets/Prefabs/Enemies/Boss.prefab
+  artifactKey: Guid(6fd694fb865e5524486da2da372b9730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Boss.prefab using Guid(6fd694fb865e5524486da2da372b9730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6531a3841719658195504cb9dc9b1d') in 0.020547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 255.396371 seconds.
+  path: Assets/Prefabs/Enemies/FlyingEnemyBullet.prefab
+  artifactKey: Guid(8f09e1ec1b3e75e468d7b9e86660cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/FlyingEnemyBullet.prefab using Guid(8f09e1ec1b3e75e468d7b9e86660cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89efc5f47ee33ea82f38274779c0c367') in 0.010262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.797543 seconds.
+  path: Assets/Prefabs/Enemies/FlyingEnemyBullet.prefab
+  artifactKey: Guid(8f09e1ec1b3e75e468d7b9e86660cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/FlyingEnemyBullet.prefab using Guid(8f09e1ec1b3e75e468d7b9e86660cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965f24326cade411c0d464913c67d8ff') in 0.005949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.810891 seconds.
+  path: Assets/Prefabs/Enemies/Boss.prefab
+  artifactKey: Guid(6fd694fb865e5524486da2da372b9730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Boss.prefab using Guid(6fd694fb865e5524486da2da372b9730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4029997e579aa09eaa2f8c0c9cc9a8e') in 0.023847 seconds 
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+Refreshing native plugins compatible for Editor in 3.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (0.6 MB). Loaded Objects now: 3785.
+Memory consumption went from 194.0 MB to 193.4 MB.
+Total: 2.576583 ms (FindLiveObjects: 0.126875 ms CreateObjectMapping: 0.038167 ms MarkObjects: 2.212333 ms  DeleteObjects: 0.198792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (0.6 MB). Loaded Objects now: 3785.
+Memory consumption went from 194.0 MB to 193.4 MB.
+Total: 2.508334 ms (FindLiveObjects: 0.116416 ms CreateObjectMapping: 0.038125 ms MarkObjects: 2.160709 ms  DeleteObjects: 0.192667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
